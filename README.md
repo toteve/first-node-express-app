@@ -20,7 +20,7 @@ and the reason Why I choose certain modules.
 First, clone the repo o descargarlo
 
 ```sh
-git clone https://github.com/FaztWeb/first-node-express-app
+git clone https://github.com/toteve/first-node-express-app
 ```
 
 move to the folder despues de clonar o abrir la carpeta despues de descomprimir

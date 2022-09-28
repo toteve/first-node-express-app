@@ -25,7 +25,7 @@ app.set("port", process.env.PORT || 3000);
 
 // definimos la ruta para las vistas principaes (archivos .ejs) en carpeta views
 app.set("views", join(__dirname, "views"));
-// definimos como motor de vistas a ejs que importamos, ver package.json, esta iintegrado a express
+// definimos como motor de vistas a ejs que importamos, ver package.json, esta integrado a express
 // los archivos de la carpeta views su extension sera .ejs para indicar que son plantillas
 app.set("view engine", "ejs");
 
