@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+
+
+    <%- include("partials/styles_css") %>
+  </head>
+  <body>
+    <%- include("partials/navigation") %>
+
+    <!-- MAIN CONTENT de Contact -->
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card animated flipInY bg-dark p-3 border-secondary">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Contact Me</h3>
+          </div>
+          <div class="card-body">
+            <form action="">
+              <div class="mb-3">
+                <label for="email">Email:</label>
+                <input class="form-control" type="text" placeholder="Email" />
+              </div>
+              <div class="mb-3">
+                <label for="email">Message:</label>
+                <textarea
+                  class="form-control"
+                  name=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary btn-block">Save</button>
+            </form>
+          </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer") %>
+    
+    <!-- JAVASCRIPT CDNS insertado para hacer uso del js en bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
